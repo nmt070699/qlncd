@@ -1,5 +1,5 @@
 <?php
-    $link=mysqli_connect("localhost:3306","root","")
+    $link=mysqli_connect("localhost:3306","root","","qlncd")
     or die("Cannot connect to the database");
     mysqli_select_db($link,"qlncd")
     or die("Cannot connect to the database");
